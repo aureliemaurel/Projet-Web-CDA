@@ -1,0 +1,31 @@
+.blue {
+    color :darkblue;
+}
+
+.italique {
+    font-style: italic;
+}
+
+p {
+    background-color: azure;
+}
+
+#titre {
+    color: brown;
+    font-size: larger;
+}
+
+@media screen and (max-width:900px) and (min-width:650px){
+    p{
+        background-color: mistyrose;
+    }
+}
+
+@media screen and (max-width:649px){
+    p{
+        background-color: beige;
+    }
+    .blue{
+        color:indigo;
+    }
+}
